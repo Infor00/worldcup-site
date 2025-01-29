@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بطولة كأس العالم</title>
+    <style>
+        /* إعدادات عامة */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* رأس الصفحة */
+        header {
+    background-color: #f4f4f4; /* لون ذهبي غامق */
+    color: rgb(0, 0, 0);
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+        /* شريط التنقل */
+        nav {
+    background-color: #b8860b;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #f4f4f4;
+    color: black;
+    border-radius: 5px;
+}
+
+
+        /* القسم الرئيسي */
+        .hero {
+            background: url('https://via.placeholder.com/1920x500') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000000;
+            text-align: center;
+            text-shadow: 2px 2px 4px #000;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        /* المحتوى */
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.photos img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.photos img:hover {
+    transform: scale(1.05);
+}
+
+
+        /* التذييل */
+        footer {
+            background-color: #fdf4dc;
+            color: #000000;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- رأس الصفحة -->
+<header>
+    <h1>بطولة كأس العالم</h1>
+    <p>كل ما تريد معرفته عن أكبر حدث رياضي في العالم</p>
+</header>
+
+<!-- شريط التنقل -->
+<nav>
+    <ul>
+        <li><a href="#about">عن البطولة</a></li>
+        <li><a href="#teams">الفرق المشاركة</a></li>
+        <li><a href="#schedule">الجدول الزمني</a></li>
+    </ul>
+</nav>
+
+<!-- قسم البطل -->
+<div class="hero">
+    <div>
+        <h2>مرحبا بكم في بطولة كأس العالم</h2>
+        <p>تابع الأحداث، النتائج، وكل جديد عن البطولة</p>
+    </div>
+</div>
+
+<!-- المحتوى -->
+<div class="content">
+    <!-- عن البطولة -->
+    <section id="about" class="section">
+        <h3>عن البطولة</h3>
+        <p>بطولة كأس العالم هي البطولة الأهم في عالم كرة القدم، تقام كل أربع سنوات بمشاركة أفضل المنتخبات من مختلف القارات. تنظم هذه البطولة تحت إشراف الاتحاد الدولي لكرة القدم (فيفا).</p>
+    </section>
+
+    <!-- الفرق المشاركة -->
+    <section id="teams" class="section">
+        <h3>الفرق المشاركة</h3>
+        <p>تشارك في البطولة فرق من جميع أنحاء العالم. يتم اختيار هذه الفرق من خلال التصفيات المؤهلة التي تقام في السنوات التي تسبق البطولة.</p>
+    </section>
+
+    <!-- الجدول الزمني -->
+    <section id="schedule" class="section">
+        <h3>الجدول الزمني</h3>
+        <p>تبدأ البطولة بمباريات المجموعات، ثم تتقدم إلى الأدوار الإقصائية وصولاً إلى المباراة النهائية، حيث يتوج بطل العالم.</p>
+    </section>
+</div>
+    <div class="photos">
+        <section id="about" class="section">
+    <h1>صور عن كأس العالم</h1>
+    <img src="95744-منتخب-إسبانيا-بطل-العالم-2010 copy.webp" width="600" height="400" border="5">
+    <img src="Messi.jpg" width="600" height="400" border="5">
+    <img src="world cup.webp" width="600" height="400" border="5">
+    <img src="كاس العالم.webp" width="600" height="400" border="5">
+</section>
+</div>
+
+
+<!-- التذييل -->
+<footer>
+    <p>© 2025 جميع الحقوق محفوظة لـ <strong>موقع كأس العالم</strong></p>
+    <p>
+        <a href="#">من نحن</a> | 
+        <a href="#">سياسة الخصوصية</a> | 
+        <a href="#">الشروط والأحكام</a> | 
+        <a href="#">تواصل معنا</a>
+    </p>
+    <p>📍 الموقع: قطر | الفيفا</p>
+</footer>
+
+
+</body>
+</html>
